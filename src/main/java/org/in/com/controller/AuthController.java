@@ -35,7 +35,7 @@ public class AuthController {
 	public AuthDto authUpdate(@PathVariable String token) throws Exception {
 		AuthDto authDto = new AuthDto();
 		authDto = authService.authUpdate(authDto, token);
-		return authDto;
+		
 
 	}
 
